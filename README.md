@@ -46,11 +46,18 @@ The repository is structured following industry-standard data engineering practi
 Clone this repository to your local directory and install the necessary package dependencies using the provided requirements configuration file:
 ```bash
 pip install -r requirements.txt
-```
+## Execution Steps
 
-### 2. Pipeline Execution
-Launch the local environment server and execute the notebook cells in sequence:
-```bash
-jupyter notebook
-```
-Open `Customer_Call_Cleaning.ipynb` to view or run the active data cleaning script.
+1. Clone this repository to your machine:
+   ```bash
+   git clone https://github.com
+   cd customer-clean-project
+   ```
+
+2. Start the Jupyter workspace environment:
+   ```bash
+   jupyter notebook
+   ```
+
+3. Open and run all cell groups inside `03_Customer_Call_Cleaning.ipynb` to regenerate the live data.
+
