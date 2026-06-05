@@ -50,8 +50,8 @@ pip install -r requirements.txt
 
 1. Clone this repository to your machine:
    ```bash
-   git clone https://github.com
-   cd customer-clean-project
+   git clone https://github.com/usmanali9999/Customer-data-cleaning-pipeline.git
+   cd Customer-data-cleaning-pipeline
    ```
 
 2. Start the Jupyter workspace environment:
